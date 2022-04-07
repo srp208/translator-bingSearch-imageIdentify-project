@@ -1,0 +1,20 @@
+<div class="container" mt-5>
+    <div class="card" style="padding: 20px;">
+        <div class="row">
+            <div class="col-lg-6">
+                    <form #translateForm="ngForm" autocomplete="off" (ngSubmit)="translateText(translateForm)">
+                        <div class="form-group">
+                            <label for="translateText" class="form-control">Text to Translate</label>
+                            <input type="text" (ngModel)="translateText"  translateText="ngModel" name="translateText" id="translateText" class="form-control" placeholder="Translate Here">
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="translateText" class="btn btn-primary w-100">
+                        </div>
+                    </form>
+            </div>
+            <div class="col-lg-6">
+                <ngx-json-viewer [json]="translatedtext" [expanded]="true" *ngIf="translatedtext"></ngx-json-viewer>
+            </div>
+        </div>
+    </div>
+    </div>
