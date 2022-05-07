@@ -25,7 +25,12 @@ import { SearchComponent } from './search/search.component';
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
-    NgxJsonViewerModule
+    NgxJsonViewerModule,
+    ImageRecComponent,
+    HeaderComponent,
+    TranslateComponent,
+    SearchComponent,
+    AppComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

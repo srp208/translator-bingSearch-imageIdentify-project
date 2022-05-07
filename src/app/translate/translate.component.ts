@@ -8,6 +8,9 @@ import { MsServiceService } from '../ms-service.service';
   styleUrls: ['./translate.component.css']
 })
 export class TranslateComponent implements OnInit {
+  getData(getData: any) {
+    throw new Error('Method not implemented.');
+  }
    translatedtext: Object | undefined;
   constructor(private msService : MsServiceService) { }
 

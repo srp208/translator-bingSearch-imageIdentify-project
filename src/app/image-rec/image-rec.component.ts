@@ -8,6 +8,9 @@ import { MsServiceService } from '../ms-service.service';
   styleUrls: ['./image-rec.component.css']
 })
 export class ImageRecComponent implements OnInit {
+  getData(getData: any) {
+    throw new Error('Method not implemented.');
+  }
  imageURLPreview ='';
   analyzedImageData: Object | undefined;
   imageURL: any;

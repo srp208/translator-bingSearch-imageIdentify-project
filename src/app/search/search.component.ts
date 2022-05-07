@@ -7,6 +7,9 @@ import { MsServiceService } from '../ms-service.service';
   styleUrls: ['./search.component.css']
 })
 export class SearchComponent implements OnInit {
+  getData(getData: any) {
+    throw new Error('Method not implemented.');
+  }
 
   Suggestions: Object | undefined;
   constructor(private msService:MsServiceService) { }
