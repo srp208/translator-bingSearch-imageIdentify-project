@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'translator-bingSearch-imageIdentify-project'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F8D70721B8BC435DAFB96940320A8232 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AC3F5EF6DA5A4B8DA19A6B2605420528 }}
           package: .
