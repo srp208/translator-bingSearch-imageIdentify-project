@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/d07ff7f3-47c0-497f-8dcb-4033eecb2915/microsoft.web/sites/subscriptions/d07ff7f3-47c0-497f-8dcb-4033eecb2915/resourceGroups/frt-project/providers/Microsoft.Web/sites/translator-bingSearch-imageIdentify-project",
+    "appService.deploySubpath": "."
+}
